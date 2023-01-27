@@ -1,7 +1,7 @@
 import style from "./styles.module.css";
 
 type TableContainerProps = {
-  children: React.ReactNode[];
+  children: React.ReactNode[] | React.ReactNode;
 };
 
 export default function TableContainer({ children }: TableContainerProps) {

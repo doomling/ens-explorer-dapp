@@ -1,8 +1,12 @@
 import style from "./styles.module.css";
-export default function DomainCard({ data }) {
+
+type DomainCardProps = {
+  ens: string;
+};
+export default function DomainCard({ ens }: DomainCardProps) {
   return (
     <div className={style.card}>
-      <h3>{data.ens}.eth</h3>
+      <h3>{ens}.eth</h3>
     </div>
   );
 }

@@ -29,7 +29,7 @@ export default function ENSDetails({ ens, tokenId }: Props) {
 
   return (
     <Container title="Domain details">
-      <DomainCard data={{ ens: ens }} />
+      <DomainCard ens={ens} />
       <TableContainer>
         <table>
           <tr>
@@ -50,7 +50,7 @@ export default function ENSDetails({ ens, tokenId }: Props) {
   );
 }
 
-export async function getServerSideProps({ query }) {
+export async function getServerSideProps({ query }: any) {
   const { ens } = query;
   const nameInBytes = ethers.utils.toUtf8Bytes(ens);
   const labelInBytes = ethers.utils.keccak256(nameInBytes);
