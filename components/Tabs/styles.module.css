@@ -1,0 +1,29 @@
+.tabsContainer {
+  border: 1px solid var(--general-border);
+  border-bottom: none;
+  width: 80%;
+  max-width: 1366px;
+  position: relative;
+}
+.tabsContainer .titleContainer {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabsContainer .titleContainer li {
+  padding: 10px;
+  color: #4a4f55;
+}
+
+.tabsContainer .titleContainer .activeTab {
+  color: var(--blue-accent);
+  font-weight: bold;
+  border-bottom: 2px solid var(--blue-accent);
+}
+
+.tabsContainer .titleContainer li:hover {
+  color: red;
+  cursor: pointer;
+}

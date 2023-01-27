@@ -1,0 +1,41 @@
+.tableContainer {
+  width: 100%;
+}
+
+.tableContainer table {
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid var(--general-border);
+}
+
+.tableContainer th {
+  background-color: var(--blue-accent);
+  padding: 5px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.tableContainer td {
+  padding: 10px;
+}
+
+.tableContainer tr {
+  border: 1px solid var(--blue-accent);
+}
+
+.tableContainer tr:nth-child(even) {
+  background-color: var(--general-border);
+}
+
+.tableContainer button {
+  padding: 10px;
+  background-color: var(--blue-accent);
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 10px;
+  border: none;
+}
+
+.tableContainer button:hover {
+  background-color: #2c7fb6;
+}

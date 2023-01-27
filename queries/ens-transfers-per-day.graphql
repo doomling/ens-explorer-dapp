@@ -1,0 +1,7 @@
+query ENSTransfersPerDay {
+  dailyTransfers(orderBy: timestamp, orderDirection: desc, first: 5) {
+    count
+    id
+    timestamp
+  }
+}

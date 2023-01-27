@@ -1,0 +1,28 @@
+.tableContainer {
+  width: 100%;
+}
+
+.tableContainer table {
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid #e7eaf3;
+}
+
+.tableContainer th {
+  background-color: #3498db;
+  padding: 5px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.tableContainer td {
+  padding: 10px;
+}
+
+.tableContainer tr {
+  border: 1px solid #3498db;
+}
+
+.tableContainer tr:nth-child(even) {
+  background-color: #e7eaf3;
+}

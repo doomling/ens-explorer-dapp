@@ -1,0 +1,9 @@
+.tabContainer {
+  border: 1px solid #e7eaf3;
+  padding: 10px;
+  background: #fff;
+}
+
+.active {
+  flex: 1;
+}

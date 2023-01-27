@@ -1,0 +1,14 @@
+.card {
+  border: 1px solid #e7eaf3;
+  padding: 10px;
+  margin: 20px;
+}
+
+.card h3 {
+  color: #3498db;
+  line-height: 3em;
+}
+
+.card p {
+  line-height: 2em;
+}

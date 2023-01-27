@@ -1,0 +1,7 @@
+query ENSHistory($tokenId: BigInt) {
+  transfers(where: { tokenId: $tokenId }) {
+    from
+    to
+    tokenId
+  }
+}
